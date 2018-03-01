@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>test page</title>
 </head>
 <body>
 
-<p>THIS IS PAGE 2</p>
+	<p>THIS IS PAGE 2</p>
+	<h1>Login Page </h1>
+
+	<!-- method is default get request -->
+	<!-- <form action= 'url to send form data to' method = 'type of http request'> -->
+	<form>
+		<label>
+			Username:<input name = 'username' type = 'email' placeholder = 'email' required>
+		</label>
+		<label for='password'>Password:</label>
+		<input id = 'password' type = 'password' placeholder = 'password' required>
+		<button>Submit</button>
+		<!-- <input type = 'submit'> -->
+	</form>
+
+	<p> do you prefer cats or dogs?</p>
+	<form>
+		<label for= 'cats'>Cats</label>
+		<input name = petChoice id = 'cats' type = 'radio' value = 'cat'>
+		<label for= 'dogs'>Dogs</label>
+		<input name = petchoice id = 'dogs' type = 'radio' value = 'dog'>
+		
+		<textarea name = 'paragraph' rows = '10' cols = '10'></textarea>
+		<p> What's your favourite colour</p>
+		
+		<select name = 'color'>
+			<option value = 'happy'>Red</option>
+			<option value = 'sad'>Orange</option>
+			<option value = 'neutral'>Yellow</option>
+		</select>
+		<button>Choose Color!</button>
+	</form>
 </body>
 </html>

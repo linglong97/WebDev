@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1> Register </h1>
+	<form>
+		<div>
+			<label for= 'first'>First Name:</label>
+			<input id = 'first' type = 'text' placeholder = 'John' required>
+			<label for= 'last'> Last Name:</label>
+			<input id = 'last' type = 'text' placeholder = 'Smith' required>
+		</div>
+		<div>
+			<label for = 'Male'>Male</label>
+			<input name = 'gender' id = 'Male' type = 'radio' value = 'male'>
+			<label for = 'Female'>Female</label>
+			<input name = 'gender' id = 'Female' type = 'radio' value = 'female'>
+			<label for = 'Other'>Other</label>
+			<input name = 'gender' id = 'Other' type = 'radio' value = 'other'>
+		</div>
+		<div>
+			<label for= 'email'>Email:</label>
+			<input id = 'email' type = 'email' placeholder = 'your email' required>
+			<label for= 'Password'> Password</label>
+			<input id = 'Password' type = 'password' placeholder = 'your password' pattern = '.{5,10}' required title = '5-10 Characters'>
+		</div>
+
+		<div>
+			<label for= 'birthday'>Birthday</label>
+			<select name = 'birthday' placeholder = 'Month'>
+				<option value = '0' selected disabled>Month</option>
+				<option value = 'happy'>Red</option>
+				<option value = 'sad'>Orange</option>
+				<option value = 'neutral'>Yellow</option>
+			</select>
+
+			<select placeholder = 'Day'>
+				<option value = '0' selected disabled>Day</option>
+				
+			</select>
+			<select placeholder = 'Year'>
+				<option value = '0' selected disabled>Year</option>
+			</select>
+		</div>
+		<div>
+			<label for= 'terms'>I agree to the terms and conditions</label>
+			<input id = 'terms' name = 'terms' type = 'checkbox' required checked>
+
+		</div>
+
+
+		<div>
+			<input type = 'submit' value = 'Submit'/>
+		</div>
+	
+		
+	</form>
+</body>
+</html>
