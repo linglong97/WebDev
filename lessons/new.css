@@ -1,0 +1,83 @@
+/*
+h1{
+	color:purple;
+	background:grey;
+	border-color: blue;
+	border-width:5px;
+	border-style:solid;
+}
+li{
+	color:orange;
+}
+h4{
+	color:green;
+}
+body{
+	background:pink;
+}
+/* colors in css -> can use names, hexadecimal, rgb(r,g,b), rgba(r,g,b,a) where rgba can make stuff transparent*/
+
+
+/*element selector -> normal selects all given element
+id selector-> 1 element
+class selector-> changes all element with that class tag in html*/
+
+/*
+Different selectors:
+Star
+*{
+
+}
+Descendant -> selects everything within that grouping
+li a {
+
+}
+
+Adjacent -> selects things after, on the same indentation level
+h4 + ul{
+
+}
+
+Attribute selector -> selects all anchor tags with a certain link, etc
+a[href = 'http://google.com']{
+
+}
+input[type = 'checkbox']{
+
+}
+ 
+Nth of type -> selects every nth element of a type
+ul:nth-of-type(3){
+
+}
+specificity:
+type selector -> li, ul, h1, etc, li+a, li a
+class, attribute, and pseudo class selector-> . etc, input[]
+id selector-> #
+
+body{
+	background:orange;
+}
+li{
+	border:2px solid red;
+}
+#testing{
+	background:pink;
+}
+.strike{
+	text-decoration:line-through;
+}
+*/
+body{
+	color:red;
+}
+
+ul{
+	color:blue;
+}
+li{
+	color:orange;
+}
+.highlight{
+	color:pink;
+}

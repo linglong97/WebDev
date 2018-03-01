@@ -1,0 +1,37 @@
+/*p{*/
+/*content- width and height-> sets the overall size of box which we fit everything within*/
+/*width:200px;*/
+/*border*/
+
+/*border:2px solid blue;*/
+	/*padding*/
+	/*margin*/
+/*padding:10px;*/
+/*margin:10px auto;*/
+/*}*/
+
+h1{
+	text-align:center;
+}
+
+table{
+	margin:0 auto;
+}
+td{
+	width:100px;
+	height:100px;
+}
+td:hover{
+	border:1px solid black;
+}
+.middle{
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+.all{
+	border:1px solid black;
+}
+.above{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}

@@ -1,0 +1,36 @@
+
+body{
+	margin:0 auto;
+	width: 70%;
+	border: 15px solid #bdc3c7;
+	font-family:source sans pro;
+	padding-left: 5px;
+	padding-right:5px;
+}
+
+p{
+	
+	color:#3498db;
+	margin-left:10px;
+	margin-top: 10px;
+	text-transform:uppercase;
+	font-size:20px;
+}
+.first{
+	font-size:50px;
+}
+h2{
+
+	color:#2c3e50;
+}
+.diff{
+	color:#2c3e50;
+}
+div{
+	border-left: 5px #bdc3c7;
+	padding-left:10px;
+}
+div:nth-of-type(2){
+	padding-bottom:20px;
+	border-bottom:2px solid grey;
+}
