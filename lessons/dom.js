@@ -37,6 +37,6 @@
 var button = document.querySelector('button')
 var paragraph = document.querySelector('p')
 newFunc = function(){
-	paragraph.textContent = 'Button was clicked!'
+	paragraph.textContent = 'Button was clicked!';
 }
 button.addEventListener('click', newFunc)
