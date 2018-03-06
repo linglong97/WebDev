@@ -51,9 +51,11 @@ li{
 li:nth-child(2n){
 	background: #f7f7f7;
 }
+
 li:hover span{
 	width:40px;
 }
+
 ul{
 
 	list-style:none;
@@ -61,6 +63,7 @@ ul{
 	
 	padding-left:0;
 }
+
 #container{
 
 	margin:100px auto;
