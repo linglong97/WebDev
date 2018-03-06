@@ -1,0 +1,3 @@
+if (jQuery){
+	alert('hello!')
+}
